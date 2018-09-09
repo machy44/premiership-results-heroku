@@ -1,0 +1,24 @@
+.button-group-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.select-round-title {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.select-round-field {
+  width: 25%
+}
+
+@media only screen and (max-width: 992px) {
+  .select-round-field {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .select-round-title {
+    text-align: center;
+  }
+}

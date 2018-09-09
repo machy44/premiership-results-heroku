@@ -1,0 +1,33 @@
+.table-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.table {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+th:first-child, td:first-child {
+  text-align: center;
+}
+
+th:nth-child(n+3), td:nth-child(n+3) {
+  text-align: right;
+}
+
+th:last-child, td:last-child {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td:last-child {
+  letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 992px) {
+  .table-title {
+    text-align: center;
+  }
+}
